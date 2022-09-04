@@ -1,0 +1,25 @@
+
+body {
+	min-height: 100vh;	/*vh é referente à wiewport*/
+	background-color: #CCC;
+	background-image: url('https://www.designerd.com.br/wp-content/uploads/2017/03/3-dicas-imagens-preto-e-branco-em-seus-projetos-ex-monocormatica.jpg');
+}
+
+.login-form {
+	margin-top: 50vh;	/*vh é referente à wiewport*/
+	padding: 20px 30px;
+	background-color: rgba(0,0,0, .9); /*rgba 0 0 0=(preto) .9=(opacidade)*/
+	color: #fff;
+
+	transform: translateY(-50%); /*tecnica pra centralizar um elemento no centro da tela.*/
+}
+
+
+.login-form h1 {
+	margin: 0 0 5px; /*Quando colocam 3 valores, 0 cima, 0 esquerda e direita e 5 para baixo*/
+}
+
+.login-form h2 {
+	margin: 0 0 30px;
+	font-size: 1em;
+}

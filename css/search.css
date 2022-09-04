@@ -1,0 +1,21 @@
+body {
+	min-height: 100vh;
+	background-image: url(https://www.baixarpapeldeparede.com/web/wallpapers/wallpaper-4k-full-hd-162/1920x1080.jpg);
+}
+
+.login-form {
+	margin-top: 50vh;
+	padding: 20px 30px;
+	background-color: rgba(173,213,230, .9);
+
+	transform: translateY(-50%);
+}
+
+.login-form h1 {
+	margin: 0 0 5px;
+}
+
+.login-form h2 {
+	margin: 0 0 30px;
+	font-size: 1em;
+}
