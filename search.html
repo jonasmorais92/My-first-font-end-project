@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="wiewport" content="width=device-width, initial-scale=1">
 
-		<title>Search.com.br</title>
+		<title>Search.com</title>
 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/search.css">
@@ -22,17 +22,24 @@
 						<div class="input-group-addon">
 							<span class="glyphicon glyphicon-user"></span>
 						</div>
-						<input type="text" name="ussuário">
+						<input type="text" name="ussuário" class="form-control" placeholder="Usuário">
 					</div>
 				</div>
 				<div class="form-group">
 					<div class="input-group">
 						<div class="input-group-addon">
-							<span class="glyphicon glyphicon-user"></span>
+							<span class="glyphicon glyphicon-lock"></span>
 						</div>
-						<input type="password" name="senha">
+						<input type="password" name="senha" class="form-control" placeholder="Senha">
 					</div>
 				</div>
+				<footer>
+					<div class="checkbox pull-left">
+						<label><input type="checkbox" name="lembrar">Lembrar de mim</input></label>
+					</div>
+					<button type="submit" class="btn btn-primary pull-right" >Enviar</button>
+				</footer>
+			</form>
 		</div>
 
 	</body>
