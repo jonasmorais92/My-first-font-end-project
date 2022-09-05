@@ -8,3 +8,11 @@ nav {
 .logotipo img {
     height: 30px;
 }
+
+.color-button-nav {
+    background-color: rgb(66,176,223);
+}
+
+.color-menu-name {
+    color: #fff;
+}
