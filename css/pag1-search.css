@@ -1,18 +1,46 @@
 nav {
-    background-color: rgb(173, 213, 230);
+    background-color: #add8e6;
 }
-.logotipo{
+.logo{
     padding: 10px;
 }
 
-.logotipo img {
+.logo img {
     height: 30px;
 }
 
-.color-button-nav {
-    background-color: rgb(66,176,223);
+.button-nav {
+    background-color: #42b0dff0; 
 }
 
 .color-menu-name {
     color: #fff;
 }
+
+.profile {
+    padding: 10px;
+}
+
+.profile li:first-child {
+    color: #000;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .profile {
+        color: #fff
+    }
+    
+    .profile a {
+        color: #337ab7;
+        display: block;
+        padding: 10px;
+    }
+
+    .profile a:hover {
+        color: #0a467c
+    }
+}
+
