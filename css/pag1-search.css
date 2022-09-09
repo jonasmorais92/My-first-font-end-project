@@ -53,3 +53,15 @@ nav {
 .search {
     margin-top: 12px;
 }
+
+.data-hotels {
+    margin-top: 30px;
+}
+
+.data-hotels td {
+    text-align: center;
+}
+
+.btn-continue-hotel {
+    margin-right: 0px;
+}
