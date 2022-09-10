@@ -29,22 +29,6 @@ nav {
     margin-bottom: 2px;
 }
 
-@media (max-width: 767px) {
-    .profile {
-        color: #fff
-    }
-    
-    .profile a {
-        color: #337ab7;
-        display: block;
-        padding: 10px;
-    }
-
-    .profile a:hover {
-        color: #0a467c
-    }
-}
-
 .row-header h1 {
     margin: 0;
     font-size: 3em;
@@ -64,4 +48,32 @@ nav {
 
 .btn-continue-hotel {
     margin-right: 0px;
+}
+
+.block-pagination .pagination {
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .profile {
+        color: #fff
+    }
+    
+    .profile a {
+        color: #337ab7;
+        display: block;
+        padding: 10px;
+    }
+
+    .profile a:hover {
+        color: #0a467c
+    }
+
+    .block-pagination {
+        text-align: center;
+    }
+
+    .block-pagination .pagination {
+        margin-top: 30px;
+    }
 }
