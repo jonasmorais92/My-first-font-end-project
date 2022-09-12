@@ -84,6 +84,7 @@
 							<th>City</th>
 							<th>Daily Price</th>
 							<th>Status</th>
+							<th>Select Option</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -97,6 +98,9 @@
 							<td>
 								<span class="label label-success">Avaible</span>
 							</td>
+							<td>
+								<input type="checkbox">
+							</td>
 						</tr>
 						<tr>
 							<td class="td-cod">854</td>
@@ -107,6 +111,9 @@
 							<td>U$ 140,00</td>
 							<td>
 								<span class="label label-danger">Unavailable</span>
+							</td>
+							<td>
+								<input type="checkbox">
 							</td>
 						</tr>
 						<tr>
@@ -120,6 +127,9 @@
 							<td>
 								<span class="label label-success">Avaible</span>
 							</td>
+							<td>
+								<input type="checkbox">
+							</td>
 						</tr>
 						<tr>
 							<td class="td-cod">2171</td>
@@ -132,6 +142,9 @@
 							<td>
 								<span class="label label-success">Avaible</span>
 							</td>
+							<td>
+								<input type="checkbox">
+							</td>
 						</tr>
 						<tr>
 							<td class="td-cod">436</td>
@@ -143,16 +156,19 @@
 							<td>
 								<span class="label label-danger">Unavailable</span>
 							</td>
+							<td>
+								<input type="checkbox">
+							</td>
 						</tr>
 					</tbody>
 				</table>
 			</div>
 
 			<footer class="row">
-				<div class="col-sm-6">
-					<button class="btn  btn-primary">Continue</button>
+				<div class="col-sm-12  text-right">
+					<button class="btn  btn-primary" data-toggle="modal" data-target="#purchase-modal">Continue</button>
 				</div>
-				<div class="col-sm-6 block-pagination  text-right">
+				<div class="col-sm-12 block-pagination  text-center">
 					<ul class="pagination">
 						<li class="disabled"><a href=""><span>«</span></a></li>
 						<li class="active"><a href="">1</a></li>
@@ -164,6 +180,26 @@
 					</ul>
 				</div>
 			</footer>
+		</div>
+		<div class="modal  fade" id="purchase-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" data-dismiss="modal" class="close">
+							<span>&times;</span>
+						</button>
+						<h4 class="modal-title">Check-in and Check-out</h4>
+					</div>
+					<form>
+						<div class="modal-body">
+							
+						</div>
+					</form>
+					<footer class="modal-footer">
+
+					</footer>
+				</div>
+			</div>
 		</div>
 		
 
