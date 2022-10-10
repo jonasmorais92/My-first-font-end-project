@@ -42,7 +42,7 @@ nav {
     margin-top: 30px;
 }
 
-.data-hotels td {
+.data-hotels th, .data-hotels td {
     text-align: center;
 }
 
@@ -72,4 +72,8 @@ nav {
     .block-pagination .pagination {
         margin-top: 30px;
     }
+}
+
+.check-in, .check-out {
+    margin: 0;
 }
