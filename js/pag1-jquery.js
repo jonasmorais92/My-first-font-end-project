@@ -1,17 +1,28 @@
 $(function() {
-    var selectAllHotel = $('#select-all');
-    var selectHotel = $('.js-select-hotel');
+    var selectAllHotels = $('#select-all');
+    var selectHotels = $('.js-select-hotel');
 
-    selectHotel.on('click',function() {
-        var totalSelectedHotels = selectHotel.filter(':checked').length;
-        var checked = selectHotel.length === totalSelectedHotels;
+    function styleLineSelectHotel() {
+        selectHotels.filter(':checked').parents('tr').addClass('js-style-line-select-hotel');
+        selectHotels.filter(':not(:checked)').parents('tr').removeClass('js-style-line-select-hotel');
+    }
 
-        selectAllHotel.prop('checked',checked);
+    selectHotels.on('click',function() {
+        var totalSelectedHotels = selectHotels.filter(':checked').length;
+        var checked = selectHotels.length === totalSelectedHotels;
+
+        selectAllHotels.prop('checked',checked);
     });
 
-    selectAllHotel.on('click',function() {
-        selectHotel.prop('checked', selectAllHotel.prop('checked'));
-    })
+    selectAllHotels.on('click',function() {
+        selectHotels.prop('checked',selectAllHotels.prop('checked'));
+
+        styleLineSelectHotel()
+    });
+
+    selectHotels.on('change',function(evento) {
+        styleLineSelectHotel()
+    });
 
 
 });
